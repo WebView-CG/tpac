@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset=UTF-8>
+  <meta content="width=device-width" name="viewport">
+  <title>WebViews Chinese Survey Results @ TPAC</title>
+  <link rel="stylesheet" href="../../Templates/slides.css">
+  <!-- To use the b6+ framework, include this: -->
+  <script src="../../Templates/b6plus.js"></script>
+  <!-- To use the Shower framework, remove b6plus above and add these two: -->
+  <!--   <script src="../../Templates/shower.js"></script>         -->
+  <!--   <script src="../../Templates/iframe-fixup.js"></script>   -->
+     <style>
+        .chart h2 {
+            font-size: large;
+        }
+     </style>
+</head>
+
+<body class="shower fade-in duration=15">
+
+  <section class="long comment">
+    <p>This slides were made for the <a href="https://www.w3.org/2024/09/TPAC/">TPAC 2024</a>, using the official
+      template.</p>
+
+    <!-- For b6plus: -->
+    <p>To start the slide show,
+      press ‘A’. Return to the index with ‘A’ or ‘Esc’. On a
+      touch screen, use a 3-finger touch. Double click to
+      open a specific slide. In slide mode, press ‘?’ (question mark) to
+      get a list of available commands.</p>
+  </section>
+
+  <!-- Remove this element if you don't want a progress bar: -->
+  <div class=progress></div>
+
+  <!-- Remove this element if you don't want the remaining time in
+       index mode and on the 2nd screen. If you keep it, you may want
+       to add the class "duration=n" on BODY, where n is the initial
+       number of minutes on the clock. Default is 30. -->
+  <div class=clock></div>
+
+  <!-- Alternative: Show also real time and elapsed time. -->
+  <!-- <div class=fullclock></div> -->
+
+  <!-- What a screen reader should say on leaving slide mode,
+       instead of the default ‘Stopped.’ -->
+  <div role=region aria-live=assertive>
+    Leaving slide mode.
+  </div>
+
+  <section class="slide cover clear" id="s1">
+    <h1>WebView CG - Chinese Community Survey</h1>
+    <p>TPAC 2024<br>
+      Anaheim CA, USA<br>
+      hybrid meeting<br>
+      24 SEPTEMBER 2024</p>
+  </section>
+
+    <section class="slide">
+        <!-- Create your first slide -->
+         <h2>WebViews Survey for the Chinese Community</h2>
+         <div class="columns">
+            <p>The <a href="https://www.w3.org/community/webview/">W3C WebView Community Group (CG)</a> created a  <a href="https://github.com/WebView-CG/webview-survey">survey</a> with the objective of identifying, understanding the <strong>issues arising from WebViews</strong> (apps that render Web technology-based content outside a Web browser). The <abbr>CG</abbr> appreciated the input of <em>34 anonymous developers</em> and experts who took part in the survey. 
+            </p>
+            <p>The <a href="https://github.com/WebView-CG/webview-survey">survey</a> ran for over a month (until September 15<sup>th</sup> 2024) with the kind support of <strong>W3C China</strong>. This presentation summarizes the insights of those 34 replies. (<a href="https://docs.google.com/spreadsheets/d/1rQJvdic9ZxqA7XINkNq5t1sIsexfZegfG5d_zu2UeLk/edit?usp=sharing">Spreadsheet</a>)
+            </p>
+        </div>
+    </section>
+
+    <section class="slide chart">
+        <h2>#1. Is the majority of your users using WebViews or browsers to run your web application(s)?</h2>
+        <details>
+            <summary>
+             <img src="img/01.png" alt="Most of developers use WebViews (20), 11 respondents use browser and 3 only native">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>WebViews</th>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th>Browsers</th>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <th>None (native only)</th>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+           </details>
+    </section>
+
+    <section class="slide chart">
+        <h2>2. What do you use WebView for?</h2>
+        <details>
+            <summary>
+                <img src="img/02.png" alt="Hybrid apps (76%), Mini apps (52%), Browser apps (29%) are the top preferred options">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Hybrid apps (Apache Cordova, Capacitor...)</th>
+                        <td>26</td>
+                    </tr>
+                    <tr>
+                        <th>Mini apps</th>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <th>Browser apps</th>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <th>Internal/Information pages</th>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th>Offline web content</th>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>External links</th>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th>Ads</th>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>           </details>
+    </section>
+
+    <section class="slide chart">
+        <h2>3. What WebView features do you use?</h2>
+        <details>
+            <summary>
+<img src="img/03.png" alt="JavaScript Injection (85%) and WebStorage (64%) are the most selected options">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>JavaScript Injection</th>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <th>WebStorage (localStorage, sessionStorage...)</th>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <th>Cookies</th>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <th>CSS Injection</th>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <th>Video playback</th>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <th>WebSockets</th>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th>webRTC</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>offscreencanvas</th>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>           </details>
+           <p class="note">This includes the replies to the question #4 (other...)</p>
+        </section>
+
+    <section class="slide chart">
+        <h2>5. What are your top pain points with using WebView?</h2>
+        <details>
+            <summary>
+                <img src="img/05.png" alt="Inconsistency (23) and Performance (16) are the top pain points">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Inconsistency</th>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <th>Performance</th>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <th>WebView bug</th>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <th>Lack of web functionality</th>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <th>Safety</th>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>Memory comsuption</th>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>Lack of updates &amp; new features</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>Lack of extensibility to native alignment</th>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>           </details>
+
+           <p class="note">This includes the replies to the question #6 (other...)</p>
+    </section>
+
+    <section class="slide chart">
+        <h2>7. What specific platforms do you develop on?</h2>
+        <details>
+            <summary>
+                <img src="img/07.png" alt="Android (22), iOS (20) and Windows (16) are the top platforms used">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Android</th>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <th>iOS</th>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th>Windows</th>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <th>macOS</th>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <th>Linux</th>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <th>HarmonyOS</th>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>other</th>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+            </table>
+           </details>
+    </section>
+
+    <section class="slide chart">
+        <h2>9. Which WebView implementation do you use?</h2>
+        <details>
+            <summary>
+                <img src="img/09.png" alt="Android WebView (24), WKWebView (16), WebView2 (12), and X5 (Tencent)	(10) are the top implementations used">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Android WebView</th>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <th>WKWebView</th>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <th>WebView2</th>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <th>X5 (Tencent)</th>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th>ArkWeb (HarmonyOS)</th>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th>UIWebView</th>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th>Custom Tabs</th>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th>SFSafariViewController</th>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th>UCWebView</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>JxBrowser</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>other</th>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>           </details>
+
+           <p class="note">This includes the replies to the question #10 (other...)</p>   
+    </section>
+
+    <section class="slide chart">
+        <h2>11. Do you know how to file bugs, search for documentation about WebView?</h2>
+        <details>
+            <summary>
+                <img src="img/11.png" alt="Five respondents know how to do it, 19 don't">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Yes</th>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>No</th>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <th>Not sure</th>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+           </details>
+
+   
+    </section>
+
+    <section class="slide chart">
+        <h2>12. Do you feel WebView documentation is adequate?</h2>
+        <details>
+            <summary>
+                <img src="img/12.png" alt="Fourteen respondents replied 'yes', 10 'no', and 10 don't know">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Yes, enough</th>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <th>No, not enough</th>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th>Not sure</th>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+           </details>
+
+    </section>
+
+    <section class="slide chart">
+        <h2>13. Documentation missing</h2>
+        <table class="striped">
+            <thead>
+                <tr><th>Challenge found</th><th>Replies</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Scarce documentation in MDN on WebViews</td><td>2</td></tr>
+                <tr><td>No standard documentation</td><td>2</td></tr>
+                <tr><td>WebViews loading mechanism</td><td>1</td></tr>
+                <tr><td>Performance optimization</td><td>1</td></tr>
+                <tr><td>How web features are implemented and the influence of the native environment in the webview</td><td>1</td></tr>
+                <tr><td>Limitations and restrictions of WebViews</td><td>1</td></tr>
+                <tr><td>How to build homogeneous layouts in different platforms</td><td>1</td></tr>
+                <tr><td>Existing documentation relative old</td><td>1</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="slide chart">
+        <h2>14. How do you keep track of web platform features that are available in WebViews?</h2>
+        <details>
+            <summary>
+                <img src="img/14.png" alt="Social Media	(16), Blogs (14), Release Notes (13), Announcements (13)">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Social Media</th>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <th>Blogs</th>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <th>Release Notes</th>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <th>Announcements</th>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <th>other</th>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+           </details>
+
+    </section>
+
+    <section class="slide chart">
+        <h2>16. What programming language is utilized in your embedding solution?</h2>
+        <details>
+            <summary>
+                <img src="img/16.png" alt="Top one is JS (with 7); Swift and Java (with 2), also with one response: .net Core, ArkTS, Kotlin multiplatform, OCaml, JSPy, Rust">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>JS</th>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <th>Swift</th>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>Java</th>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>.net Core</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>ArkTS</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>Kotlin multiplatform</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>OCaml</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>JSPy</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>Rust</th>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+           </details>
+
+    </section>
+
+    <section class="slide chart">
+        <h2>17. How are you achieving consistent behavior and rendering across different platforms and devices using WebView ?</h2>
+        <ul style="line-height: 1;">
+            <li>Forcing users to upgrade</li>
+            <li>JS Bridge</li>
+            <li>Vue + component library</li>
+            <li>Using native capabilities, or using JS packages to smooth out differences</li>
+            <li>A cross-platform layer on top</li>
+            <li>HTTPS proxy to inject shims; restrict usage patterns to reduce differences</li>
+            <li>Electron</li>
+            <li>Smoothing original side</li>
+            <li>Uni-App (framework)</li>
+        </ul>
+    </section>
+
+    <section class="slide chart">
+        <h2>12. What approaches do you take to test WebViews for consistency across devices & platforms?</h2>
+        <table class="striped">
+        <thead><tr><th>Approach</th><th>Mentions</th></tr></thead><tbody>
+         <tr><td>Manual testing on different devices</td><td>5</td></tr>
+         <tr><td>Using only web standards</td><td>1</td></tr>
+         <tr><td>Regression Testing</td><td>1</td></tr>
+         <tr><td>Automatic testing with Playwright, Appium</td><td>1</td></tr>
+         <tr><td>Debugging with https://eruda.liriliri.io</td><td>1</td></tr>
+         <tr><td>End to end testing</td><td>1</td></tr>
+        </tbody>
+        </table>
+    </section>
+
+    <section class="slide chart">
+        <h2>19. Are there features or functionality missing from <abbr title="Progressive Web Apps">PWAs</abbr> that if added would motivate you to maintaining a PWA instead of your WebView-based solution?</h2>
+        <ul style="line-height: 1;">
+            <li><strong>More PWA support in general (x2 mentions)</strong></li>
+            <li>JS Injection</li>
+            <li>Printing API</li>
+            <li>MiniApp support</li>
+            <li>Filesystem API</li>
+            <li>Local <code>exec()</code></li>
+            <li>Bluetooth API...</li>
+            <li>Sensors APIs</li>
+            <li>Multi-window capabilities</li>
+            <li>Yes :-)</li>
+        </ul>
+    </section>
+
+    <section class="slide chart">
+        <h2>20. How do you decide when to use a WebView vs navigating to a browser app?</h2>
+        <table class="striped">
+            <thead><tr><th>Options</th><th>Mentions</th></tr></thead><tbody>
+             <tr><td>Keep experience within the app</td><td>2</td></tr>
+             <tr><td>When all the pages are managed by the webview</td><td>2</td></tr>
+             <tr><td>When the user does not want to use the browser</td><td>1</td></tr>
+             <tr><td>If data interaction is required with the native app</td><td>1</td></tr>
+             <tr><td>When the the browser sandbox is reached </td><td>1</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="slide chart">
+        <h2>21. How do you work around some of the shortcomings of WebView today?</h2>
+        <table class="striped">
+            <thead><tr><th>Options</th><th>Mentions</th></tr></thead><tbody>
+             <tr><td>Avoiding using WebViews</td><td>2</td></tr>
+             <tr><td>Asking the community</td><td>1</td></tr>
+             <tr><td>Relying on "advanced technology"</td><td>1</td></tr>
+             <tr><td>Searching info and using examples</td><td>1</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="slide chart">
+        <h2>22. What are your thoughts about WebView from a privacy and security point of view?</h2>
+        <table class="striped">
+            <thead><tr><th>Thoughts</th><th>Mentions</th></tr></thead><tbody>
+             <tr><td>No opinion</td><td>3</td></tr>
+             <tr><td>"Profile needs to be promoted as a standard"</td><td>1</td></tr>
+             <tr><td> There are too many and too easy ways to bypass vulnerabilities</td><td>1</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="slide chart">
+        <h2>23. Are there features of functionality missing in the WebView you use? (e.g., prerender, WebviewPool,...)</h2>
+        <details>
+            <summary>
+                <img src="img/23.png" alt="Four respondents mentioned Pre-rendering. Two, WebView Pool. The rest: quicker startup, Efficient communication and Native UI interoperability">
+            </summary>
+            <p>The description of the pie chart, here as a table:
+            </p>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Options</th>
+                        <th>Replies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Pre-rendering</th>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th>WebView Pool</th>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th>Quicker startup</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>Efficient communication</th>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th>Native UI interoperability</th>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+           </details>
+    </section>
+
+    <footer class="long comment">
+        <address>Slides designed on <a href="mailto:bert@w3.org">Bert Bos</a>'s template (11 December 2023) and modified on
+          2024/08/28 13:13:24 $ by $coralie $.</address>
+      </footer>
+    
+    
+    </body>
+    
+    </html>
+    <!-- Local Variables: -->
+    <!-- sgml-basic-offset: 1 -->
+    <!-- End: -->
