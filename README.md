@@ -6,10 +6,8 @@ Our slides and further material
 
 ### WebViewCG Meetings
 
-* [Tuesday Meeting](https://webview-cg.github.io/tpac/TPAC-2024/WebViewCG/Tuesday.html)
-* [Thursday Meeting](https://webview-cg.github.io/tpac/TPAC-2024/WebViewCG/Thursday.html)
-
-> TODO: Link to markdown notes in meetings repo
+* [Tuesday Meeting Slides ](https://webview-cg.github.io/tpac/TPAC-2024/WebViewCG/Tuesday.html) - [Notes](https://github.com/WebView-CG/meetings/blob/main/2024/2024-09-24-tpac.md)
+* [Thursday Meeting Slides](https://webview-cg.github.io/tpac/TPAC-2024/WebViewCG/Thursday.html) - [Notes](https://github.com/WebView-CG/meetings/blob/main/2024/2024-09-26-tpac.md)
 
 ### Breakout Sessions
 
