@@ -4,6 +4,36 @@ Sep 25, 2024
 
 Link: [bit.ly/standards-beyond-the-browser](https://bit.ly/standards-beyond-the-browser)
 
+## Landscape
+
+``m̀ermaid
+mindmap
+  root((User Agents))
+    WebViews
+      Hybrid apps
+      MiniApps
+      WebView providers
+        Systems WebViews
+        Custom WebViews
+        Browser-like 
+            Custom Tabs
+            SFSafariViewController
+    ePub
+      CSS WG collaboration
+        Joint meetings
+        Set requirements
+    WebAssembly
+    Web Of Things
+    Web Extensions
+    Media
+        Accessibility
+        Subtitles, Captions, Audio Descriptions
+        Embedded Devices
+    JavaScript Runtimes
+        WinterCG
+    HTML spec conformance checker
+```
+
 ## Attendees
 
 * Niklas Merz (Apache Cordova)
