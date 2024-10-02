@@ -11,7 +11,7 @@ Our slides and further material
 
 ### Breakout Sessions
 
-* [Web Standards Beyond The Browser](https://webview-cg.github.io/tpac/TPAC-2024/Breakout/StandardsBeyondTheBrowser.html)
+* [Web Standards Beyond The Browser](https://webview-cg.github.io/tpac/TPAC-2024/Breakout/StandardsBeyondTheBrowser.html) - [Notes](TPAC-2024/Breakout/BreakoutNotes.md)
 
 ### Additional 
 
