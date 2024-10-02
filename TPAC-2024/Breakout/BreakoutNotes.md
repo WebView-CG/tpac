@@ -6,7 +6,7 @@ Link: [bit.ly/standards-beyond-the-browser](https://bit.ly/standards-beyond-the-
 
 ## Landscape
 
-``m̀ermaid
+```mermaid
 mindmap
   root((User Agents))
     WebViews
