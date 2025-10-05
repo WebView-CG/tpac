@@ -2,6 +2,16 @@
 
 Our slides and further material
 
+## TPAC 2025
+
+### WebView Community Group Meeting
+
+[CG Meeting Slides](https://webview-cg.github.io/tpac/TPAC-2025/WebViewCG/CGMeeting.html)
+
+### Breakout Sessions
+
+[WebView quirks and testing](https://webview-cg.github.io/tpac/TPAC-2025/Breakout/WebViewQuirksandTesting.html)
+
 ## TPAC 2024
 
 ### WebViewCG Meetings

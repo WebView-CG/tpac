@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset=UTF-8>
+    <meta content="width=device-width" name="viewport">
+    <title>WebView quirks and testing</title>
+    <link rel="stylesheet" href="../Templates/slides.css">
+    <!-- To use the b6+ framework, include this: -->
+    <script src="../Templates/b6plus.js"></script>
+    <!-- To use the Shower framework, remove b6plus above and add these two: -->
+    <!--   <script src="../Templates/shower.js"></script>         -->
+    <!--   <script src="../Templates/iframe-fixup.js"></script>   -->
+</head>
+
+<body class="shower fade-in duration=60">
+
+    <section class="long comment">
+        <p><strong>Author(s)</strong><br>
+            The <strong><a href="Overview.html#manual">user manual</a></strong> at the
+            end has setup information and instructions.<br>
+            To write slides, look at the slides in this
+            template.</p>
+
+        <!-- For b6plus: -->
+        <p><strong>Reader(s)</strong><br>
+            To start the slide show,
+            press ‘A’. Return to the index with ‘A’ or ‘Esc’. On a
+            touch screen, use a 3-finger touch. Double click to
+            open a specific slide. In slide mode, press ‘?’ (question mark) to
+            get a list of available commands.</p>
+
+        <!-- For Shower: -->
+        <!-- <p><strong>To start the slide show,</strong> press Shift+F5
+   (Command+Enter on Mac).
+   Return to the index by pressing ‘Esc’. You can also click to
+   open a specific slide.</p> -->
+
+        <p><strong>If it doesn't work:</strong> Slide mode requires a
+            recent browser with JavaScript. If you are using the <a href="https://noscript.net/">‘NoScript’</a> add-on
+            (Firefox or the
+            Tor Browser), or changed the <a
+                href="https://support.google.com/chrome/answer/114662?hl=en&amp;co=GENIE.Platform=Desktop">‘site
+                settings’</a> (Chrome, Vivaldi, Opera, Brave and some other
+            browsers), or the ‘permissions for this site’ (Edge), you may have
+            to explicitly allow JavaScript on these slides. Internet Explorer
+            is not supported.</p>
+    </section>
+
+    <!--=============================================================
+			    Example slides
+  ==============================================================-->
+
+    <!-- Remove this element if you don't want a progress bar: -->
+
+    <!-- Remove this element if you don't want the remaining time in
+       index mode and on the 2nd screen. If you keep it, you may want
+       to add the class "duration=n" on BODY, where n is the initial
+       number of minutes on the clock. Default is 30. -->
+    <div class=clock></div>
+
+    <!-- Alternative: Show also real time and elapsed time. -->
+    <!-- <div class=fullclock></div> -->
+
+    <!-- What a screen reader should say on leaving slide mode,
+       instead of the default ‘Stopped.’ -->
+    <div role=region aria-live=assertive>
+        Leaving slide mode.
+    </div>
+
+
+    <section class="slide cover clear">
+        <h1>WebView quirks and testing</h1>
+        <address>Niklas Merz - The Apache Software Foundation</address>
+        <p>TPAC 2025<br>
+            Kobe, Japan<br>
+            hybrid meeting<br>
+            10–14 November 2025</p>
+        <p>
+            Notes:
+            <a href="https://bit.ly/standards-beyond-the-browser">bit.ly/standards-beyond-the-browser</a>
+        </p>
+    </section>
+
+    <section class=comment>
+        <p>My name is Niklas and I work on open source projects at the ASF</p>
+        <p>Check out the notes document and help our scribe</p>
+        <p>Remote participants can hear us?</p>
+    </section>
+
+
+    <section class="slide" id="lists">
+        <h2>Agenda</h2>
+        <ol>
+            <li>Introduction & Admin (5 min)</li>
+            <li>Roll call: Who is here and what environments are we looking at? (15 min)</li>
+            <li>Open discussion (30 min)</li>
+            <li>Close up with minutes & follow up items</li>
+        </ol>
+    </section>
+
+    <section class=comment>
+        <p>Agenda and slides are just for starting the conversation</p>
+    </section>
+
+    <section class="slide" id="intros-admin">
+        <h2>Intros & Admin (5 mins)</h2>
+        <div class="columns">
+            <div>
+                <img width=200 height=200 src="images/standards-beyond-the-browser.png" alt="https://bit.ly/standards-beyond-the-browser">
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        Notes link:<br />
+                        <a href="https://bit.ly/standards-beyond-the-browser">bit.ly/standards-beyond-the-browser</a>
+                    </li>
+                    <li>Please add your your name to queue</li>
+                    <li>When speaking, please first announce your name and affiliation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class=comment>
+        <p>Why we are here?</p>
+        <p>Who is volunteering to be a scribe?</p>
+        <p>I post the notes afterwards</p>
+    </section>
+
+
+    <section class="slide slide-in">
+        <h2>Session objectives</h2>
+        <ul>
+            <li> Showcase testing tools </li>
+            <li> In progress testing resources</li>
+            <li> Open exchange about WebView issues</li>
+        </ul>
+    </section>
+
+    <section class=comment>
+        <p>Remind you on some objectives I wrote down for this session</p>
+    </section>
+</body>
+
+</html>
+<!-- Local Variables: -->
+<!-- sgml-basic-offset: 1 -->
+<!-- End: -->
