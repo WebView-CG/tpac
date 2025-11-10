@@ -14,7 +14,7 @@
 
 * Introduction round
 * Present CanIWebview apps and ideas (Niklas)
-* Test automations are beeing built
+* Test automations are being built
 * **Let's share our stories, issues and use cases with WebView**
  - Cookies and localhost (Niklas)
  - ....more

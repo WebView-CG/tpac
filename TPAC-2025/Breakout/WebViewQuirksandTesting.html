@@ -72,21 +72,18 @@
 
     <section class="slide cover clear">
         <h1>WebView quirks and testing</h1>
-        <address>Niklas Merz - The Apache Software Foundation</address>
+        <address>Niklas Merz - Apache Software Foundation</address>
         <p>TPAC 2025<br>
             Kobe, Japan<br>
             hybrid meeting<br>
             10–14 November 2025</p>
-        <p>
-            Notes:
-            <a href="https://bit.ly/webview-quirks">bit.ly/webview-quirks</a>
-        </p>
     </section>
 
     <section class=comment>
         <p>My name is Niklas and I work on open source projects at the ASF</p>
         <p>Check out the notes document and help our scribe</p>
         <p>Remote participants can hear us?</p>
+        <p>Reminder policies: code of conduct, antitrust guidance</p>
     </section>
 
 
@@ -94,7 +91,8 @@
         <h2>Agenda</h2>
         <ol>
             <li>Introduction & Admin (5 min)</li>
-            <li>Roll call: Who is here and what environments are we looking at? (15 min)</li>
+            <li>Roll call: Who is here and what environments are we looking at? (10 min)</li>
+            <li>Testing apps and plans for automations (10 min)</li>
             <li>Open discussion (30 min)</li>
             <li>Close up with minutes & follow up items</li>
         </ol>
@@ -137,6 +135,73 @@
             <li> In progress testing resources</li>
             <li> Open exchange about WebView issues</li>
         </ul>
+    </section>
+
+    <section class="slide slide-in">
+        <h2>Testing Tools</h2>
+        <ol>
+            <li> CanIWebView Android - DONE </li>
+            <li> CanIWebView iOS - DONE </li>
+            <li> CanIWebView2 (Windows) - DONE </li>
+            <li> Tauri + Servo WebView tests - IN PROGRESS </li>
+            <li> Automation - TODO </li>
+        </ol>
+    </section>
+
+    <section class="slide slide-in">
+        <h2>Apps</h2>
+        <h3><a href="https://caniwebview.com/apps">https://caniwebview.com/apps</a></h3>
+        <img src="images/stores.png" alt="app store badges" >
+        <br />
+        <a href="https://github.com/search?q=topic%3Aapp+org%3AWebView-CG+fork%3Atrue&type=repositories">
+            WebView-CG on GitHub
+        </a>
+    </section>
+
+    <section class="slide slide-in">
+        <h2>Screenshots</h2>
+        <div class="columns">
+            <div>
+                <img src="images/android.png" alt="CanIWebView Android screenshot" style="max-width: 100%; height: auto;">
+            </div>
+            <div>
+                <img src="images/ios.png" alt="CanIWebView iOS screenshot" style="max-width: 100%; height: auto;">
+            </div>
+        </div>
+    </section>
+
+    <section class="comment">
+        <p>Demo on iPad?</p>
+    </section>
+
+    <section class="slide slide-in">
+        <h2>Special Origins on WebViews</h2>
+        <p>You can't use file:// these days, right?</p>
+        <div class="columns">
+            <div>
+                <h3>Android</h3>
+                <p>WebViewAssetLoader</p>
+                <ul>
+                    <li>Register domains</li>
+                    <li>https://appassets.androidplatform.net/</li>
+                    <li>https://mydomain.com</li>
+                    <li>Intercept GET & path</li>
+                </ul>
+            </div>
+            <div>
+                <h3>iOS</h3>
+                <p>WKURLSchemeHandler</p>
+                <ul>
+                    <li>Register custom URL schemes, e.g. app://</li>
+                    <li>myapp://appcontent</li>
+                    <li>Intercept GET & POST</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="slide slide-in">
+        <h2>Cookie Quirks on WebViews</h2>
     </section>
 
     <section class=comment>
