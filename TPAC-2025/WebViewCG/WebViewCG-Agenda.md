@@ -20,6 +20,6 @@ _Key topic:_ WebViews and Baseline
     * Contributing back to WebDX
     * Discussion
 * Recap & follow up WebViews in breakouts
-* Testing and Servo based WebView
 * New ideas?
+* Charter review
 * Chairing the CG
