@@ -6,7 +6,7 @@
 
 ## Session goals
   
-*. Showcase testing tools
+* Showcase testing tools
 * In progress testing resources
 * Open exchange about WebView issues
 
