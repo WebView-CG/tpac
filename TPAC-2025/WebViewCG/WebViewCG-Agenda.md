@@ -13,12 +13,13 @@
 
 _Key topic:_ WebViews and Baseline
 
+* CanIWebView improvements
 * WebViews and Baseline
     * Some data and graphs about web features in WebViews and changes to Baseline status
-    * What could we contribute to BCD and Web features?
+    * Configurable features
+    * Contributing back to WebDX
     * Discussion
 * Recap & follow up WebViews in breakouts
-* CanIWebView improvements
 * Testing and Servo based WebView
 * New ideas?
 * Chairing the CG
