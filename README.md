@@ -1,16 +1,16 @@
 # WebView CG TPAC
 
-Our slides and further material
+Our slides and further material from WebViews at [TPAC](https://www.w3.org/news-events/w3c-tpac/)
 
 ## TPAC 2025
 
 ### WebView Community Group Meeting
 
-[CG Meeting Slides](https://webview-cg.github.io/tpac/TPAC-2025/WebViewCG/CGMeeting.html)
+[Slides](https://webview-cg.github.io/tpac/TPAC-2025/WebViewCG/CGMeeting.html)
 
-### Breakout Sessions
+### Breakout Session: WebView quirks and testing
 
-[WebView quirks and testing](https://webview-cg.github.io/tpac/TPAC-2025/Breakout/WebViewQuirksandTesting.html)
+[Slides](https://webview-cg.github.io/tpac/TPAC-2025/Breakout/WebViewQuirksandTesting.html) - [Notes](TPAC-2025/Breakout/WebViewQuirksAndTestingNotes.md)
 
 ## TPAC 2024
 
@@ -23,6 +23,6 @@ Our slides and further material
 
 * [Web Standards Beyond The Browser](https://webview-cg.github.io/tpac/TPAC-2024/Breakout/StandardsBeyondTheBrowser.html) - [Notes](TPAC-2024/Breakout/BreakoutNotes.md)
 
-### Additional 
+### Additional
 
 * [Results of short survey in China](https://webview-cg.github.io/tpac/TPAC-2024/WebViewCG/CN_Webviews_Survey/index.html)
