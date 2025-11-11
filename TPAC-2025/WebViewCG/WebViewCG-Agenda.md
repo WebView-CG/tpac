@@ -17,9 +17,9 @@ _Key topic:_ WebViews and Baseline
 * WebViews and Baseline
     * Some data and graphs about web features in WebViews and changes to Baseline status
     * Configurable features
-    * Contributing back to WebDX
+    * Contributing back to WebDX, BCD
     * Discussion
-* Recap & follow up WebViews in breakouts
+* Recap & follow up WebViews in breakouts and sessions
 * New ideas?
 * Charter review
 * Chairing the CG
