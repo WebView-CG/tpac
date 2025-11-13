@@ -20,6 +20,6 @@ _Key topic:_ WebViews and Baseline
     * Contributing back to WebDX, BCD
     * Discussion
 * Recap & follow up WebViews in breakouts and sessions
-* New ideas?
 * Charter review
 * Chairing the CG
+* New work streams?
