@@ -1,4 +1,4 @@
-# WebView CG TPAC
+# WebView CG at TPAC
 
 Our slides and further material from WebViews at [TPAC](https://www.w3.org/news-events/w3c-tpac/)
 
