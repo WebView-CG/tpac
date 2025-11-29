@@ -6,7 +6,7 @@ Our slides and further material from WebViews at [TPAC](https://www.w3.org/news-
 
 ### WebView Community Group Meeting
 
-[Slides](https://webview-cg.github.io/tpac/TPAC-2025/WebViewCG/CGMeeting.html)
+[Slides](https://webview-cg.github.io/tpac/TPAC-2025/WebViewCG/CGMeeting.html) - [Minutes](https://github.com/WebView-CG/meetings/blob/main/2025/2025-11-14.md)
 
 ### Breakout Session: WebView quirks and testing
 
