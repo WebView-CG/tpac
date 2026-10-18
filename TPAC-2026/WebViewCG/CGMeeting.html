@@ -12,7 +12,7 @@
   <!--   <script src="../Templates/shower.js"></script>         -->
   <!--   <script src="../Templates/iframe-fixup.js"></script>   -->
  </head>
- <body class="shower fade-in duration=120">
+ <body class="shower fade-in duration=90">
 
   <!-- Alternative: Show also real time and elapsed time. -->
   <!-- <div class=fullclock></div> -->
@@ -35,37 +35,39 @@
 
   <section class="slide" id="agenda">
    <h2>Agenda</h2>
-   <h3>Intros & admin (10 mins)</h3>
+   <h3>Intros & admin</h3>
    <div class=columns>
     <div>
-      <h3>A.WebViews CG Past, Present & Future <br />(45 mins)</h3>
+      <h3>A.WebViews CG Past, Present & Future</h3>
       <ol>
         <li>Charter updates</li>
         <li>Work streams</li>
         <li>Recap past work</li>
-        <li>Plan for the future</li>
+        <li>What's next?</li>
       </ol>
     </div>
     <div>
-      <h3>B. WebView Security Threat Modelling <br />(45 mins)</h3>
+      <h3>B. WebView Security & Threat Modelling</h3>
       <ol>
+        <li>What do we want to produce?</li>
+        <li>Getting started</li>
       </ol>
     </div>
     </div>
   </section>
 
   <section class="slide" id="intros-admin">
-    <h2>Intros & Admin (15 mins)</h2>
+    <h2>Intros & Admin</h2>
     <div class="columns">
       <div>
         <img width=200 height=200
-          src="images/webviewcg.png" alt="https://bit.ly/webview-cg-tpac25">
+          src="images/webviewcg.png" alt="https://bit.ly/webview-tpac-26">
       </div>
       <div>
         <ul>
           <li>
             Notes link:<br />
-            <a href="https://bit.ly/webview-cg-tpac25">bit.ly/webview-cg-tpac25</a>
+            <a href="https://bit.ly/webview-tpac-26">bit.ly/webview-cg-tpac26</a>
           </li>
           <li>Please add your your name to queue</li>
           <li>When speaking, please first announce your name and affiliation</li>
@@ -79,203 +81,72 @@
         <p>Remote participants can hear us?</p>
         <p>Intro why you care about WebViews</p>
         <p>What do you want to take away from this session?</p>
+        <p>Later we will look at the future of WebViews, pls share what you are trying today and think what will come.</p>
     </section>
 
+  <!-- PAST & PRESENT -->
+
   <section class="slide slide-in">
-    <h2>Baseline on CanIWebView</h2>
-    <img src="images/baseline.png" alt="Baseline scoreboard">
-    <a href="https://caniwebview.com/baseline">caniwebview.com/baseline</a>
+    <h2 id="chairing">Charter Updates</h2>
+    <p>Updated on Sept 2026</p>
+    <img src="images/chater-compare.png" alt="Charter comparison; see https://github.com/WebView-CG/charter/pull/17" style="display: block; max-width: 75%; max-height: 75%; width: auto; height: auto; object-fit: contain; margin: 0 auto;">
   </section>
 
-  <section class="slide slide">
-    <img src="images/statuschart.png" class="fit" alt="Crunching the numbers, mostly fine">
+  <section class="slide slide-in">
+    <h2 id="chairing-history">Chairing</h2>
+    <p>Chair since Nov 2023 - Solo chair since early 2025</p>
+    <img src="images/greetings.png" alt="Greetings from new chairs email, November 2023" style="display: block; max-width: 75%; max-height: 45vh; width: auto; height: auto; object-fit: contain; margin: 0 auto;">
   </section>
 
   <section class=comment>
-    Latest charts from Tonys analysis<br>
-    <em>Changed wording on status</em>
+    <p>Little reminder that a Co-Chair would appreciated</p>
+    <p>Someone who wants to drive something forward</p>
   </section>
+
+
+  <!-- Future -->
 
   <section class="slide slide-in">
-    <img src="images/ambiguous.png" class="fit" alt="About 15 features with ambiguous support">
-  </section>
-
-  <section class="comment">
-    Ambiguous support: <br>
-    only 15, and the majority are not currently Baseline. 
-    That gives us some much rosier charts
-  </section>
-
-  <section class="slide slide-in">
-    <h2>New Basline status: <em>WebView Available?</em></h2>
-      <p>Webview supports all the same keys as the corresponding browser (sometimes not all keys are supported even if a feature
-        is WA/NA).
-        -> <em>Supported?</em>
-      </p>
-      <p>
-        Webview supports a subset of the keys supported by the corresponding browser.
-        -> <em>Partial?</em>
-      </p>
-      <p>
-        Webview supports none of the keys supported by the corresponding browser.
-        -> <em>Unsupported?</em>
-      </p>
-  </section>
-
-  <section class=comment>
-    
+    <h2 id="chairing-history">What's next?</h2>
+    <p>Let's look in the future for</p>
     <ul>
-      <li>Tony brought some questions and we already discussed this a while ago.</li>
-      <li>Does it make sense to have a new Baseline status?</li>
-      <li>Discuss here or in the WebDX meeting?</li>
-    </ul>
-
-  </section>
-
-  <section class="slide slide-in">
-    <h2>Limited Availability with WebView Support</h2>
-    <ul>
-      <li>Some features are Limited Availability overall</li>
-      <li>But have sufficient support in Android Chrome+WebView <em>and</em> iOS Safari+WebView</li>
-      <em>"WebView Widely Available"?</em>
-      <li>Desktop versions may not support the feature</li>
-      <li>Firefox is the blocker for ~50 features at any given time</li>
-      <li><b style="color: red;">How do we describe and categorize these?</b></li>
-    </ul>
-    </section>
-
-  <section class="slide slide-in">
-    <h2>Configurable features</h2>
-    <ul>
-      <li>Some features can be enabled/disabled by app developers</li>
-      <li>Examples: JavaScript, DOM storage, Geolocation etc...</li>
-      <li>Impact on Baseline status?</li>
+      <li>WebViews</li>
+      <li>MiniApps</li>
+      <li>Security scrutiny</li>
+      <li>Embedding the Web</li>
+      <li>AI using the Web</li>
+      <li>More...</li>
     </ul>
   </section>
 
-  <section class="slide slide-in">
-    <h2>Contributing back to web-features & BCD</h2>
-    <ul>
-      <li>How confident are we with this data?</li>
-      <li>How can we get this even more accurate?</li>
-      <li>Who feeds data into BCD?</li>
-    </ul>
-  </section>
-
-  <section class="slide lightmode" id="break">
-    <h2>Break (10 min)</h2>
-    <img src="images/break.webp" class="cover">
-  </section>
-
-  <section class=comment>
-    Stretch, grab a coffee, etc. <br>
-    Two hour meetings are too long <br>
-    Have some informal chat
-  </section>
-
-  <section class="slide slide-in">
-    <h2>Recap sessions</h2>
-    <ul>
-      <li>WebView quirks and testing</li>
-      <li>Modular web engines</li>
-      <li>Mini apps joint meeting</li>
-      <li>Isolated Web Apps</li>
-      <li>High Performance Web Apps</li>
-    </ul>
-  </section>
-
-  <section class=comment>
-    <p>WebView in every session I attended on Wednesday</p>
-  </section>
+  <!-- Security -->
 
   <section class="slide cover">
-    <h1>Charter Review</h1>
-  </section>
-
-  <section class="comment">
-    <p>Docs CG did a review of their work and charter short time after forming</p>
-    <p>Charter two years old, let's revisit</p>
+    <h1>WebView Security</h1>
   </section>
 
   <section class="slide slide-in">
-    <h2>Goals</h2>
-    
-    <p>The WebView Community Group aims to identify, understand, and reduce the issues arising from the use of software
-    components (typically referred as `WebView`s) that are used to render Web technology-based content outside of a Web
-    browser (Native Apps, MiniApps, etc).</p>
-  </section>
-
-  <section class="slide slide-in">
-    <h2 id="scope-of-work">Scope of Work</h2>
-    <p>The WebView Community Group will:</p>
-    <ul style="font-size: 0.8em;">
-      <li>identify the issues, challenges, and limitations that arise from the usage of WebViews, regardless of the platform
-        and type of device they&#39;re used on, including gathering support data to document interoperable surface of WebViews,
-      </li>
-      <li>determine whether they can be addressed through improvements to the Web Platform, WebView capabilities, the
-        surrounding ecosystem (e.g. documentation, testing frameworks), or through other mechanisms,</li>
-      <li>develop technical proposals (explainers) targeting the agreed upon issues, challenges, and limitations that would
-        be implemented in a WebView,
-      </li>
-      <li>raise awareness about the impact of WebViews for Web technologies in relevant communities (e.g. existing W3C
-        groups)
-      </li>
-    </ul>
-  </section>
-  
-  <section class="slide slide-in">
-    <h2 id="out-of-scope">Out of Scope</h2>
-    <p>The following things are out of scope:</p>
+    <h2 id="security">Security Workstream</h2>
+    <p>What type of information do we want to provide as the Community Group?</p>
     <ul>
-      <li>Proposals that are not applicable to WebViews as defined in this charter (e.g. proposals on browser related
-        improvements),</li>
-      <li>Normative specifications. Actual incubation of the explainers developed by the group is not in scope of this
-        charter.</li>
+      <li>Security considerations as group notes</li>
+      <li>Information in caniwebview.com</li>
+      <li>Contribute to the Threat Model of The Web</li>
     </ul>
   </section>
 
-  <section class="slide slide-in">
-    <h2 id="deliverables">Deliverables</h2>
-    <h3 id="non-normative-data">Non-Normative Data</h3>
-    <ul>
-      <li>Machine-readable data describing the differences between WebView &amp; browser implementations that can be
-        consumed by
-        documentation platforms and other tools, by February 2025</li>
-    </ul>
-    <h3 id="non-normative-reports">Non-Normative Reports</h3>
-    <ul>
-      <li>
-        <p>WebView use cases and limitations: a <a href="https://webview-cg.github.io/usage-and-challenges/">document</a>
-          describing the type of use WebViews fulfill and the challenges they create in distributing content and
-          applications built on top of Web technologies.</p>
-        <p>The group intends to continue updating the document with relevant usages and challenges.</p>
-      </li>
-      <li>
-        <p>Technical proposals: Explainers outlining solutions for the agreed upon challenges.</p>
-      </li>
-    </ul>
+  <section class=comment>
+    <p> I started security considerations. Is group note the right pick or should I move it elsewhere?</p>
   </section>
 
-  <section class="slide slide-in">
-    <h2 id="chairing">Chairing</h2>
-    <p>Chair since Nov 2023</p>
-    <img src="images/greetings.png" alt="Greetings from new chairs email november 2023">
-  </section>
-
-  <section class="slide slide-in">
-    <h2 id="new-work-streams">New Work Streams?</h2>
-  <section>
-  
   <section class="slide final">
    <h2>Thank you!</h2>
    <ul>
-    <li>More meetings</li>
-    <li>
-      <ul>
-        <li>WebDX CG next door</li>
-        <li>Best day & time for next meeting?</li>
-      </ul>
-    </li>
+    <h3>Meetings</h3>
+    <ul>
+      <li>Thinking outside the browser - More coordination for better web standards for embedding</li>
+      <li>Best day & time for monthly meetings?</li>
+    </ul>
    </ul>
   </section>
 
