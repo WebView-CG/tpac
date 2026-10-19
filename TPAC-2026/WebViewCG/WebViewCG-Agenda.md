@@ -8,22 +8,6 @@
 
 
 
-## Agenda
+## Agenda & Notes
 
-- **WebViews CG Past, Present & Future**
-    - Charter updates
-    - Our work streams
-    - What's the future for?
-        - WebViews
-        - MiniApps
-        - Embedding the Web
-        -> WebView CG
-- **WebView Security & Threat Modeling**
-    - Still interest in going into security?
-    - What do we want to produce?
-        - Security considerations as a CG document?
-        - Threat Model
-    - Getting started
-        - Diagrams
-        - How to threat model
-        - Volunteers?
+https://bit.ly/webview-tpac-26

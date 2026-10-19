@@ -2,6 +2,16 @@
 
 Our slides and further material from WebViews at [TPAC](https://www.w3.org/news-events/w3c-tpac/)
 
+## TPAC 2026
+
+### WebView Community Group Meeting
+
+[Slides](https://webview-cg.github.io/tpac/TPAC-2026/WebViewCG/CGMeeting.html)
+
+### Breakout Session: WebView quirks and testing
+
+[Slides](https://webview-cg.github.io/tpac/TPAC-2026/Breakout/ThinkingOutsideTheBrowser.html)
+
 ## TPAC 2025
 
 ### WebView Community Group Meeting
