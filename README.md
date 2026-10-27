@@ -8,7 +8,7 @@ Our slides and further material from WebViews at [TPAC](https://www.w3.org/news-
 
 [Slides](https://webview-cg.github.io/tpac/TPAC-2026/WebViewCG/CGMeeting.html)
 
-### Breakout Session: WebView quirks and testing
+### Breakout Session: Thinking outside the browser - More coordination for better web standards for embedding
 
 [Slides](https://webview-cg.github.io/tpac/TPAC-2026/Breakout/ThinkingOutsideTheBrowser.html)
 
