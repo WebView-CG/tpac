@@ -2,9 +2,9 @@
 
 Nov. 11, 2025 08:30 GMT+9
 
-Link: [https://bit.ly/webview-cg-2510](https://bit.ly/webview-cg-2510)
+Link: https://bit.ly/webview-cg-2510
 
-Notes on GitHub:[https://github.com/WebView-CG/tpac/blob/main/TPAC-2025/Breakout/WebViewQuirksAndTestingNotes.md](https://github.com/WebView-CG/tpac/blob/main/TPAC-2025/Breakout/WebViewQuirksAndTestingNotes.md)
+Notes on GitHub: https://github.com/WebView-CG/tpac/blob/main/TPAC-2026/Breakout/ThinkingOutsideTheBrowser.md
 
 ## Session goals
 
