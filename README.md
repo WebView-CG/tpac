@@ -10,7 +10,7 @@ Our slides and further material from WebViews at [TPAC](https://www.w3.org/news-
 
 ### Breakout Session: Thinking outside the browser - More coordination for better web standards for embedding
 
-[Slides](https://webview-cg.github.io/tpac/TPAC-2026/Breakout/ThinkingOutsideTheBrowser.html)
+[Slides](https://webview-cg.github.io/tpac/TPAC-2026/Breakout/ThinkingOutsideTheBrowser.html) - [Minutes](/TPAC-2026/Breakout/ThinkingOutsideTheBrowser.md)
 
 ## TPAC 2025
 
@@ -20,18 +20,18 @@ Our slides and further material from WebViews at [TPAC](https://www.w3.org/news-
 
 ### Breakout Session: WebView quirks and testing
 
-[Slides](https://webview-cg.github.io/tpac/TPAC-2025/Breakout/WebViewQuirksandTesting.html) - [Notes](TPAC-2025/Breakout/WebViewQuirksAndTestingNotes.md)
+[Slides](https://webview-cg.github.io/tpac/TPAC-2025/Breakout/WebViewQuirksandTesting.html) - [Minutes](TPAC-2025/Breakout/WebViewQuirksAndTestingNotes.md)
 
 ## TPAC 2024
 
 ### WebViewCG Meetings
 
-* [Tuesday Meeting Slides ](https://webview-cg.github.io/tpac/TPAC-2024/WebViewCG/Tuesday.html) - [Notes](https://github.com/WebView-CG/meetings/blob/main/2024/2024-09-24-tpac.md)
-* [Thursday Meeting Slides](https://webview-cg.github.io/tpac/TPAC-2024/WebViewCG/Thursday.html) - [Notes](https://github.com/WebView-CG/meetings/blob/main/2024/2024-09-26-tpac.md)
+* [Tuesday Meeting Slides ](https://webview-cg.github.io/tpac/TPAC-2024/WebViewCG/Tuesday.html) - [Minutes](https://github.com/WebView-CG/meetings/blob/main/2024/2024-09-24-tpac.md)
+* [Thursday Meeting Slides](https://webview-cg.github.io/tpac/TPAC-2024/WebViewCG/Thursday.html) - [Minutes](https://github.com/WebView-CG/meetings/blob/main/2024/2024-09-26-tpac.md)
 
 ### Breakout Sessions
 
-* [Web Standards Beyond The Browser](https://webview-cg.github.io/tpac/TPAC-2024/Breakout/StandardsBeyondTheBrowser.html) - [Notes](TPAC-2024/Breakout/BreakoutNotes.md)
+* [Web Standards Beyond The Browser](https://webview-cg.github.io/tpac/TPAC-2024/Breakout/StandardsBeyondTheBrowser.html) - [Minutes](TPAC-2024/Breakout/BreakoutNotes.md)
 
 ### Additional
 
